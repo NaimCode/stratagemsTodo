@@ -67,6 +67,7 @@ const LoginPage = () => {
           <Input
             id="password"
             type="password"
+            placeholder="********"
             required
             {...register("password")}
           />

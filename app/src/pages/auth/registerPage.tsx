@@ -59,7 +59,7 @@ const RegisterPage = () => {
           <Input
             id="name"
             type="text"
-            placeholder="m@example.com"
+            placeholder="John Doe"
             required
             {...register("name")}
           />
@@ -80,6 +80,7 @@ const RegisterPage = () => {
             id="password"
             type="password"
             required
+            placeholder="********"
             {...register("password")}
           />
         </div>
