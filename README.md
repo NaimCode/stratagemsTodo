@@ -39,22 +39,22 @@
 4. Create a `.env` file in the root of the server folder and add the following
 
    ```sh
-DATABASE_URL= 
-SESSION_SECRET=
-JWT_SECRET=
-CLIENT_URL=
-ENV=
-PORT=
-MULTI_SESSIONS=
-SESSION_DURATION=
-API_KEY=
+   DATABASE_URL= 
+   SESSION_SECRET=
+   JWT_SECRET=
+   CLIENT_URL=
+   ENV=
+   PORT=
+   MULTI_SESSIONS=
+   SESSION_DURATION=
+   API_KEY=
    ```
 
 5. Create a `.env` file in the root of the client folder and add the following
 
    ```sh
-VITE_API_URL=
-VITE_API_KEY=
+   VITE_API_URL=
+   VITE_API_KEY=
    ```
 
 ## Setup Database (MongoDB) with Prisma
