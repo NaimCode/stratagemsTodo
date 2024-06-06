@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "e2e:test": "playwright test",
-    "e2e:report": "playwright test show-report"
+    "e2e:test": "playwright test --ui"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.5.0",
