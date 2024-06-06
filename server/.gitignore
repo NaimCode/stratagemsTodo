@@ -4,3 +4,4 @@ node_modules
 
 # ignore all .js files
 *.js
+!jest.config.js
