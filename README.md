@@ -106,7 +106,7 @@
 
 2. client e2e test
 
-   Make sure to add a valid credential for inside **e2e/todos.specs.ts** and **e2e/auth.specs.ts** for login e2e
+   Make sure to add a valid credential inside **e2e/todos.specs.ts** and **e2e/auth.specs.ts** for login e2e
    ```sh
    pnpm e2e:test
    ```
