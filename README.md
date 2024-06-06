@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+https://stratagems-todo.vercel.app/
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
